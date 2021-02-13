@@ -1,5 +1,10 @@
 package designpattern.template;
 
+/**
+ *
+ *   模拟一个maven项目 它使用了maven的一部分生命周期
+ *
+ */
 public class J2EEMaven extends MavenLifeCycle{
 
     Clean clean;

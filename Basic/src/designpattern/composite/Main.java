@@ -1,9 +1,9 @@
 package designpattern.composite;
 
 /**
- * 组合设计模式，适用于树形结构
+ * 组合设计模式，适用于树形结构，例如公司的内部的层级、文件系统等。
  */
-public class main {
+public class Main {
 
     public static void main(String[] args){
         Root root1 = new Folder("C://");

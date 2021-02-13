@@ -1,6 +1,5 @@
 package designpattern.decoretor;
 
-
 /**
  * 具体的被装饰者
  */
