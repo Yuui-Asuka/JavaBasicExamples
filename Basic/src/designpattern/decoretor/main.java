@@ -1,8 +1,11 @@
 package designpattern.decoretor;
 
 /**
- * 装饰器设计模式
+ * 装饰器设计模式 设计模式不止在Java语言中有应用，在python/Js中也常用
+ * 比如Python中的@XXX装饰器
+ * 以及Js中的闭包
  */
+
 public class main {
     public static void main(String[] args){
         // 建立一个字节输出流

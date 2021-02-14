@@ -3,6 +3,9 @@ package cocurrent.java.communication.pipe;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * 线程间通过管道进行通信
+ */
 public class Main {
 
     public static void main(String[] args) throws IOException {

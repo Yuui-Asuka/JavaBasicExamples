@@ -5,7 +5,7 @@ public class WaitAndNotify {
 
     private final Object obj = new Object();
     /**
-     * 使用wait和notify进行状态检测
+     * 模型2：使用wait和notify进行状态检测
      * @throws InterruptedException
      */
     public void test() throws InterruptedException {

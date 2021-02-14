@@ -5,7 +5,7 @@ public class KeepDetect {
     private static volatile boolean flag = false;
 
     /**
-     * 用一个空循环去不断地检测flag的状态
+     * 模型1：用一个空循环去不断地检测flag的状态
      * 缺点：空循环期间需要一直检测flag的状态，不知道什么时候flag会变成true
      * 空循环会消耗CPU的资源，休眠的时间不可预估
      * @throws InterruptedException
