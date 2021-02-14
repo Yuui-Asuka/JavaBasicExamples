@@ -1,4 +1,4 @@
-package designpattern.decoretor;
+package designpattern.decorator;
 
 public class BufferOutputStream implements OutputStream{
 

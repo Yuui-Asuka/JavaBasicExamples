@@ -1,4 +1,4 @@
-package designpattern.decoretor;
+package designpattern.decorator;
 
 /**
  * 装饰器设计模式 设计模式不止在Java语言中有应用，在python/Js中也常用

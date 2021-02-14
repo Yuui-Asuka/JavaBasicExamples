@@ -1,4 +1,4 @@
-package designpattern.decoretor;
+package designpattern.decorator;
 
 public interface InputStream {
     String write(int length);

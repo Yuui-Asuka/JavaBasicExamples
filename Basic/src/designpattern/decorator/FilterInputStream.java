@@ -1,12 +1,12 @@
-package designpattern.decoretor;
+package designpattern.decorator;
 
-public class BufferInputStream implements InputStream{
+public class FilterInputStream implements InputStream{
 
-    private String description = " 增加一个缓冲装饰器";
+    private String description = " 增加一个过滤装饰器";
 
     private InputStream inputStream;
 
-    public BufferInputStream(InputStream inputStream){
+    public FilterInputStream(InputStream inputStream){
         this.inputStream = inputStream;
     }
 

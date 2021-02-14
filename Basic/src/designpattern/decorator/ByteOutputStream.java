@@ -1,4 +1,4 @@
-package designpattern.decoretor;
+package designpattern.decorator;
 
 /**
  * 具体的被装饰者
