@@ -1,6 +1,12 @@
 package cocurrent.java.communication.provider;
 
-public class Medium {
+import designpattern.birdge.Configuration;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Medium implements MediumInterface{
 
     /**
      * 默认的同步信号量为0
